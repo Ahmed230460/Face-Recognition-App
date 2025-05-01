@@ -1,83 +1,62 @@
+# 👤 Face Recognition Pro System
 
-# Professional Face Recognition System
+![App Screenshot](./screenshot.png) <!-- Replace with actual screenshot -->
 
-![App Screenshot](screenshot.png) <!-- Add a screenshot later -->
+A powerful face recognition application with real-time detection, user management, and customizable settings.
 
-A robust face recognition application with user management, real-time detection, and recognition capabilities.
+## ✨ Features
 
-## Features
+| Feature | Status |
+|---------|--------|
+| ✅ Real-time face detection | Implemented |
+| ✅ Face recognition | Implemented |
+| ✅ User management | Implemented |
+| ✅ Multiple themes | Implemented |
+| 📊 Recognition history | In Progress |
+| 📁 Data import/export | Planned |
 
-- 👤 Face registration and management
-- 🔍 Real-time face detection and recognition
-- 📊 Recognition history logging
-- ⚙️ Configurable settings (tolerance, themes, etc.)
-- 📁 Import/export functionality
-- 📷 Webcam integration with FPS monitoring
+## 🛠️ Tech Stack
 
-## File Structure
+- Python 3.8+
+- OpenCV (cv2)
+- face-recognition
+- Tkinter (ttkbootstrap)
+- SQLite3
+- Pillow (PIL)
+
+## 📂 Project Structure
+
+
+```plaintext
 face-recognition-app/
 │
-
-│ ├── config.pkl # Application configuration
-│ ├── face_recognition_v2.db # Main SQLite database
-│ └── known_faces_v2.pkl # Face encodings data
+├── dataset/                  # User data storage
+│   ├── config.pkl            # Application configuration
+│   ├── face_recognition_v2.db # SQLite database
+│   └── known_faces_v2.pkl    # Face encodings
 │
-
-
-├── src/ # Source code
-│ ├── app.py # Main application file
+├── src/                      # Source code
+│   └── app.py                # Main application
 │
+├── requirements.txt          # Dependencies
+├── README.md                 # Documentation
+└── LICENSE                   # MIT License
 
 
-├── requirements.txt # Python dependencies
-├── README.md # This documentation
-└── LICENSE # Project license
 
+## 🚀 Getting Started
 
-## Installation
+### Prerequisites
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Ahmed230460/Face-Recognition-App.git
-   cd Face-Recognition-App
+- Python 3.8 or higher
+- Webcam
+- Git (optional)
 
-2.**Install dependencies**:
-pip install -r requirements.txt
+### Installation
 
-3.**Required Python Packages**:
-pip install opencv-python face-recognition tk ttkbootstrap pillow numpy sqlite3
+1. Clone the repository:
+```bash
+git clone https://github.com/Ahmed230460/Face-Recognition-App.git
+cd Face-Recognition-App
 
-##Usage
-
-1.**Run the application**:
-
-python src/app.py
-
-2.**Main Functions**:
-
-1-Add new users with face capture
-
-2-Start/stop face recognition
-
-3-View recognition history
-
-4-Manage user database
-
-3.**Configuration**:
-
-The application automatically creates these configuration files:
-
-config.pkl: Stores application settings (theme, tolerance, etc.)
-face_recognition_v2.db:	SQLite database for user data
-known_faces_v2.pkl:	Serialized face encodings
-
-##License
-
-Distributed under the MIT License.
-
-##Contact
-
-Ahmed Dawood - ahmeddawood0001@gmail.com
-
-Project Link: https://github.com/Ahmed230460/Face-Recognition-App
    
