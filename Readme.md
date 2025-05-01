@@ -1,4 +1,4 @@
-# 👤 Face Recognition Pro System
+# 👤 Face Recognition System
 
 ![App Screenshot](./screenshot.png) <!-- Replace with actual screenshot -->
 
@@ -27,7 +27,7 @@ A powerful face recognition application with real-time detection, user managemen
 ## 📂 Project Structure
 
 
-```plaintext
+
 face-recognition-app/
 │
 ├── dataset/                  # User data storage
