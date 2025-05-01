@@ -17,13 +17,18 @@ A robust face recognition application with user management, real-time detection,
 ## File Structure
 face-recognition-app/
 │
+
 │ ├── config.pkl # Application configuration
 │ ├── face_recognition_v2.db # Main SQLite database
 │ └── known_faces_v2.pkl # Face encodings data
 │
+
+
 ├── src/ # Source code
 │ ├── app.py # Main application file
 │
+
+
 ├── requirements.txt # Python dependencies
 ├── README.md # This documentation
 └── LICENSE # Project license
