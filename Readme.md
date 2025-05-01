@@ -45,6 +45,7 @@ pip install opencv-python face-recognition tk ttkbootstrap pillow numpy sqlite3
 ##Usage
 
 1.**Run the application**:
+
 python src/app.py
 
 2.**Main Functions**:
@@ -58,6 +59,7 @@ python src/app.py
 4-Manage user database
 
 3.**Configuration**:
+
 The application automatically creates these configuration files:
 
 config.pkl: Stores application settings (theme, tolerance, etc.)
@@ -65,9 +67,12 @@ face_recognition_v2.db:	SQLite database for user data
 known_faces_v2.pkl:	Serialized face encodings
 
 ##License
+
 Distributed under the MIT License.
 
 ##Contact
+
 Ahmed Dawood - ahmeddawood0001@gmail.com
+
 Project Link: https://github.com/Ahmed230460/Face-Recognition-App
    
