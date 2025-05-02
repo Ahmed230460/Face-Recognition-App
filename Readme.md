@@ -110,14 +110,6 @@ Adjust settings via the menu (theme, tolerance, sound, etc.)
 
 
 
-## Configuration
-
-Settings are stored in config.pkl
-
-Auto-saves every 5 minutes
-
-Editable via the Settings menu
-
 ## License
 
 © 2025 Ahmed Dawood. All Rights Reserved. Distributed under the MIT License.
