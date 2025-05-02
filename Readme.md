@@ -10,7 +10,7 @@ A comprehensive face recognition solution with real-time detection, user managem
 |---------|--------|
 | ✅ Real-time face detection and recognition | Implemented |
 | ⚙️ Configurable settings (tolerance, themes) | Implemented |
-| 📝 Face registration and management | Planned |
+| 📝 Face registration and management | Implemented |
 | 📊 Recognition history logging | Implemented |
 | 📁 Import/export functionality | Implemented |
 | 🎥 Webcam integration with FPS monitoring | Implemented |
