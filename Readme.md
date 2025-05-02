@@ -62,7 +62,7 @@ pip install opencv-python face-recognition ttkbootstrap pillow numpy
 python src/app.py
 
 
-### Key Functions
+## Key Functions
 
 User Management
 
@@ -84,7 +84,7 @@ Change UI themes
 
 View system logs
 
-###### ⚙️Configuration
+## ⚙️Configuration
 
 **config.pkl**:  Application settings	
 
@@ -93,18 +93,12 @@ View system logs
 **known_faces_v2.pkl**:  Face encodings
 
 
-## 📜 License
-
-MIT License - See LICENSE for details.
-
-
-
-**Run the application**:
+## Run the application:
 
 python app.py
 
 
-**Use the UI to**:
+## Use the UI to:
 
 Start/Stop face capture and recognition
 
@@ -116,7 +110,7 @@ Adjust settings via the menu (theme, tolerance, sound, etc.)
 
 
 
-**Configuration**
+## Configuration
 
 Settings are stored in config.pkl
 
@@ -124,11 +118,11 @@ Auto-saves every 5 minutes
 
 Editable via the Settings menu
 
-**License**
+## License
 
 © 2025 Ahmed Dawood. All Rights Reserved. Distributed under the MIT License.
 
-**Documentation**
+## Documentation
 
 For more details, visit: (https://github.com/Ahmed230460/Face-Recognition-App)
 
