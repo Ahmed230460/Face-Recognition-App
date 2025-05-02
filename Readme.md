@@ -34,7 +34,7 @@ face-recognition-app/
 
 ```
 
-### 🚀 Installation
+## 🚀 Installation
 
 **Prerequisites**
 
@@ -57,12 +57,12 @@ pip install -r requirements.txt
 pip install opencv-python face-recognition ttkbootstrap pillow numpy
 
 
-#### 💻 Usage
+## 💻 Usage
 
 python src/app.py
 
 
-##### Key Functions
+### Key Functions
 
 User Management
 
@@ -93,7 +93,7 @@ View system logs
 **known_faces_v2.pkl**:  Face encodings
 
 
-###### 📜 License
+## 📜 License
 
 MIT License - See LICENSE for details.
 
